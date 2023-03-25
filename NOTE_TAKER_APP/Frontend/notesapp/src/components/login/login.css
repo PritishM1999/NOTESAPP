@@ -1,0 +1,105 @@
+.myContainer{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(230, 246, 207);
+    height: 500px;
+    width: 600px;
+    border-radius: 5%;
+    border: 2px black;
+}
+
+.myContainer h1{
+    margin-top: 80px;
+    color: grey;
+    font-weight: 600;
+    margin-left: 240px;
+    display: inline;
+}
+#back{
+    color: gray;
+    font-size: 50px;
+    margin-right: 20px;  
+}
+
+
+#name{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-left: 20%;
+    margin-top: 60px;
+    background-color: #b9c0fd04;
+}
+
+#email{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-left: 20%;
+    margin-top: 60px;
+    background-color: #b9c0fd04;
+}
+
+#password{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-left: 20%;
+    margin-top: 60px;
+    background-color: #b9c0fd04;
+}
+
+
+.myContainer button{
+    color: aliceblue;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    height: 40px;
+    width: 350px;
+    border-color: grey;
+    border-radius: 5px;
+    background-color: rgb(84, 89, 236);
+    font-weight: bold;
+}
+
+
+#forgot{
+    color:red;
+    margin-left: 220px;
+   
+}
+
+#regis{
+    margin-top: 10px;
+    color: rgb(21, 17, 224);
+    font-size: 40px;
+    margin-right: 180px;
+   font-weight: bolder;
+}
+
+#here{
+    display: inline;;
+    color: gray;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#check{
+    color: rgb(44, 114, 195);
+}
+
+#checkbox{
+    margin-left: 35%;
+    margin-right: -25%;
+    color: rgb(44, 114, 195);
+}
