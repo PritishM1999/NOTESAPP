@@ -8,7 +8,7 @@ const register = async (req, res) => {
   // check if user already exists
   const user = await User.findOne({ email });
   if (user) {
-    return res.status(400).json({ message: 'User already exists' });
+    return res.status(409).json({ message: 'User already exists' });
   }
 
   // create new user
@@ -44,7 +44,7 @@ const login = async (req, res) => {
   const payload = { userId: user._id };
   const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' });
 
-  res.json({ token });
+  return res.status(200).json({email, password , token, message: 'Login Sucessfull' });
 };
 
 module.exports = { register, login };

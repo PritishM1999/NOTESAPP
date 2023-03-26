@@ -5,7 +5,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const compression = require('compression');
 
-module.exports = function(app) {
+// Define middleware function
+function setupMiddleware(app) {
   // Parse incoming request bodies in a middleware before your handlers
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
@@ -21,4 +22,7 @@ module.exports = function(app) {
 
   // Compress response bodies
   app.use(compression());
-};
+}
+
+// Export middleware function directly
+module.exports = setupMiddleware;
